@@ -1,0 +1,186 @@
+body {
+	color: #212529 !important;
+    background-color: rgb(137, 93, 64) !important;
+    background-image: url(https://luitool.soilweb.ca/wp-content/uploads/sites/8/2015/04/page_img.jpg) !important;
+    background-repeat: repeat-x;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+.site-content .row,
+.site-content .content-header,
+.site-branding > .container,
+.main-navigation .navbar-collapse,
+footer.site-footer {
+    background-color: #fff;
+}
+
+.site-content .content-header {
+    min-height: auto;
+}
+
+.site-content .content-header .page-title {
+    color: #212529;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+footer.site-footer {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.site-branding .site-title {
+    padding-left: 70px;
+}
+
+.site-header,
+.site-content,
+.main-navigation .navbar,
+.site-content .content-header,
+footer.site-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header,
+.main-navigation .navbar,
+.site-content .content-header,
+footer.site-footer {
+    width: 1170px;
+}
+
+
+
+.sidebar-pagebottom {
+	display: none;
+}
+
+.site-branding > div {
+	top: 15px !important;
+    left: initial !important;
+    padding-left: 20px;
+}
+
+
+
+.site-branding .site-title > a {
+	color: #895d40;
+	font-weight: 500;
+}
+
+.site-branding > div > a > img {
+    width: 50px;
+    height: auto;
+}
+
+
+
+/*.site-header,
+.site-content,
+.main-navigation .navbar,
+.site-content .content-header,
+footer.site-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header,
+.main-navigation .navbar,
+.site-content .content-header,
+footer.site-footer {
+    width: 1170px;
+}*/
+
+.main-navigation .navbar {
+	border-top: 1px solid #e7e7e7;
+}
+
+.site-content .content-header {
+	min-height: auto;
+	padding: 0;
+}
+
+
+
+
+.site-content .content-area {
+	padding-top: 10px !important;
+	padding-left: 35px;
+}
+
+.site-content .widget-area {
+	margin-top: 20px;
+	padding-top: 0 !important;
+	padding-right: 35px;
+}
+
+.widget-title {
+    text-align: center;
+    background: linear-gradient(#EEE, #CCC);
+    text-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 0px;
+    border: 1px solid #666666;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.site-content .content-area a,
+.site-footer a {
+	color: #0d6efd;
+}
+
+.site-content .content-area a:hover,
+.site-footer a:hover {
+	color: #0a58ca;
+}
+
+
+@media (max-width: 575.98px) {
+    .site-content .content-header .page-title { text-align: center; }
+    .entry-content a > img { margin-bottom: 15px !important; }
+    .entry-content .wp-block-image > .alignright {
+        float: none !important;
+        margin: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 767.98px) {
+    .site-header,
+    .site-content,
+    .main-navigation .navbar,
+    .site-content .content-header,
+    footer.site-footer { width: auto !important; }
+
+    .site-branding .site-title { font-size: 2.5rem; }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (max-width: 991.98px) {
+    .site-header,
+    .site-content,
+    .main-navigation .navbar,
+    .site-content .content-header,
+    footer.site-footer { width: 750px; }
+
+    .site-content .content-area { padding-left: 15px; }
+    .site-content .widget-area { padding-right: 15px; }
+    .site-content .content-header .page-title { padding-left: 0; }
+    .content-area .entry-content a > img {
+        float: none !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .site-header,
+    .site-content,
+    .main-navigation .navbar,
+    .site-content .content-header,
+    footer.site-footer { width: 970px; }
+}
