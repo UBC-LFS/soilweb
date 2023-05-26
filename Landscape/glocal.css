@@ -1,0 +1,285 @@
+body {
+    background-color: rgb(196, 200, 218) !important;
+    background-image: url(https://landscape.soilweb.ca/wp-content/uploads/sites/7/2015/04/page_bg_img_blue.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.site-header {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.site-content,
+footer {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+footer {
+    background-color: #fff;
+    font-size: 1.1rem;
+    padding-bottom: 0;
+}
+
+footer > div {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.site-branding .site-title {
+    padding-left: 80px;    
+}
+
+.site-branding .site-title > div {
+    top: 26px !important;
+    left: 140px !important;
+}
+
+.site > .widget-area,
+.site-content .content-area .comments-area {
+    display: none;
+}
+
+.site-content,
+.widget-area {
+    background-color: #fff;
+}
+
+.site-content {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.widget-area {
+    border-top-right-radius: 6px;
+    padding: 20px !important;
+}
+
+.widget-area .widget-title {
+    font-size: 1.6rem;
+}
+
+.widget-area ul {
+    list-style-type: disc !important;
+    padding-left: 50px !important;
+}
+
+.widget-area .widget .textwidget > p {
+    padding-bottom: 20px;
+}
+
+.site-content .content-area .site-main {
+    padding-bottom: 0 !important;
+}
+
+.site-content .content-area .entry-header {
+    border-bottom: none !important;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.site-content .content-area .entry-header .entry-title {
+    font-size:  2.5rem;
+}
+
+.site-content .content-area .entry-content > div,
+.site-content .content-area .entry-content > p,
+.site-content .content-area .entry-content > table,
+.site-content .content-area .entry-content > ol {
+    max-width:  100% !important;
+}
+
+.site-content .content-area .entry-content > h6 {
+    text-align: center !important;
+    font-size: 1.3rem !important;
+}
+
+
+.upper-main {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.upper-left, .upper-right {
+    width: 67%;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    background: #EFE;
+}
+
+.upper-left {
+    width: 67%;
+    display: inline-block;
+    height: 100%;
+}
+
+.upper-right {
+    float: right;
+    width: 32%;
+    height: 100%;
+}
+
+
+.upper-left p, 
+.upper-right p {
+    margin-bottom: 20px;
+}
+
+.upper-right img {
+    margin-top: 16px;
+    margin-bottom: 0 !important;
+}
+
+.lower-main > p {
+    text-align: center;
+}
+
+.lower-main > figure > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.middle-tabs {
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+}
+
+.image-paragraph img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#middle-table-1, 
+#middle-table-2, 
+#middle-table-3 {
+    padding: 15px;
+    font-weight: bold;
+    display: inline;
+    font-size: 16px;
+    background: #EEE;
+    border: 1px solid #DDD;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.landfood-table tr td {
+    padding: 10px;
+    border: 1px solid #DDD;
+}
+
+.landfood-table-legend {
+    vertical-align: middle;
+    background: #DDE;
+    text-align: center;
+    font-size: 24px;
+    width: 15%;
+}
+
+.landfood-table-content {
+    font-size: 1.3rem;
+}
+
+.landfood-table-content li {
+    font-size: 1.1rem;
+}
+
+.primary-menu-container .menu-wrapper .sub-menu li > a {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.primary-menu-container .menu-wrapper .sub-menu li > .sub-menu li > a {
+    padding-left: 30px !important;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .site-content,
+    footer {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .site-branding {
+        max-width:  100% !important;
+    }
+    .site-branding .site-title {
+        padding-left: 0;
+    }
+    /*.site-branding .site-title > div {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+    }*/
+    .site-branding h1 {
+        font-size: 1.1rem;
+    }
+    .site-branding h1 img {
+        width: 2rem;
+    }
+    .upper-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .upper-left,
+    .upper-right,
+    .upper-left > div {
+        width: 100% !important;
+    }
+    .upper-left {
+        margin-bottom: 10px;
+    }
+    .upper-left > div {
+        float:  none !important;
+        margin: 0 !important;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+
+/* Updated on May 26th, 2023 */
+
+.hfg_footer { display: none; }
+nav .header-main-inner .row--wrapper { display: block; }
+.hfg-slot { display: block; }
+
+.site-logo  .site-title {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo .site-title > div { 
+    margin-right: 20px; 
+    position: relative !important;
+}
+
+.entry-content .comments-area { display: none; }
+
+
+
+
+
+
