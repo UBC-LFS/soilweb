@@ -1,0 +1,60 @@
+body { font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
+
+.site:before,
+.search-toggle,
+#secondary,
+.comments-area,
+.site-footer .site-info { display: none; }
+
+.masthead-fixed .site-header { 
+	background-color: #052c65; 
+	position: relative !important;
+}
+.primary-navigation { font-size: 14px; }
+
+.site {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.site-main a,
+.content-sidebar .widget a,
+.site-footer a,
+.content-sidebar .widget a:hover { 
+	color: #0d6efd;
+	text-decoration: none; 
+}
+
+.entry-content a:hover,
+.content-sidebar .widget a:hover { text-decoration: underline; }
+
+.site-content { margin-left: 0; }
+
+.site-content .page,
+.site-content .entry-header,
+.site-content .entry-content { max-width: none; }
+
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.site-navigation .current-menu-item > a:hover, 
+.primary-navigation li > a:hover,
+.primary-navigation ul ul,
+.primary-navigation ul ul a:hover,
+.site-navigation .current-menu-ancestor > a,
+.primary-navigation li:hover > a, 
+.primary-navigation li.focus > a,
+.primary-navigation ul ul li.focus > a { background-color: #0a58ca; }
+
+.primary-navigation ul ul a:hover { font-weight: 700; }
+
+.entry-content .accordion .accordion-section-title { color: #fff; }
+
+.site-main .content-area, 
+.site-main .content-sidebar { padding-top: 0; }
+
+::selection { background: #3399FF; }
+::-moz-selection { background: #3399FF; }
