@@ -1,0 +1,321 @@
+/* new one */
+
+body {
+    color: #212529 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+footer > .site-footer {
+    padding: 15px;
+}
+
+.content-header,
+.widget-area,
+.sidebar-pagebottom,
+.site-footer .after-footer .site-credits .credits-theme {
+    display: none;
+}
+
+.site-main {
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 3px;
+}
+
+.content-area {
+    width: 100% !important;
+}
+
+.content-area .page h1 {
+    color: #616161;
+}
+
+.content-area .custom-footer {
+    max-width: 708px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    border: thin black solid;
+}
+
+@media (max-width: 767.98px) {
+    .site-main {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .site-main,
+    .content-area .custom-footer {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+/* Old one */
+
+body, #page, header {
+    max-width: 100% !important;
+#    background-size: 100% !important;
+#    background-color: rgb(23,44,46) !important;
+#    background-color: white;
+}
+
+.navbar-collapse.collapse {
+    margin-left:-40px;
+}
+
+#page {
+#   max-width: 1200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px !important;
+}
+
+.primary-navigation li.menu-item a {
+# color: white;
+}
+
+.post-thumbnail,
+#comments,
+#post-67 .entry-header,
+.site-info,
+.site:before
+{
+#    display: none !important;
+}
+
+.primary-menu-container{
+# color: white;   
+}
+
+/** header **/
+.site-title, .header-main {
+#    text-align: center !important;
+    padding-left: 0px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    font-size: 48px !important;
+    font-weight: 500;
+#    padding-right: 0 !important;
+}
+
+.site-title {
+#    width: 100% !important;
+#    padding-left: 0px !important;
+#    box-sizing: border-box !important;
+}
+
+#masthead {
+    width: 100% !important;
+#    border-radius: 2px;
+#    background: rgb(49,93,99) !important;
+#    border: 1px solid black !important;
+#    box-sizing: border-box !important;
+}
+
+.content-header{
+    display:none;
+}
+
+/** content **/
+.container {
+    width: 970px;    
+}
+
+.wp-block-column{
+    flex-basis: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/** footer **/
+.site-footer {
+    background: transparent;
+    color: black;
+#    padding: 0px 20px 0px 20px;
+}
+
+.primary-navigation {
+    width: 100% !important;
+#    text-align: center !important;
+#    margin: 0 !important;
+}
+
+
+
+
+.site-title a {
+#    text-overflow: clip !important;
+#    white-space: normal !important;
+}
+
+.search-toggle {
+    display: none;
+}
+
+
+
+
+.entry-content, .entry-header { 
+#    background: none !important;
+    position: relative !important;
+}
+
+.entry-title{
+    margin-left: 0px;
+    font-size: 40px;
+}
+
+/* hid widget area that was showing up */
+#secondary {
+    display: none;
+}
+
+.secondary-navigation {
+    width: 100% !important;
+}
+
+#primary {
+    margin-left: 0px !important;
+    float: none !important;
+    width: auto !important;
+    font-weight: lighter !important;
+}
+
+#primary a {
+    color: rgb(72, 134, 161);
+    text-decoration: none !important;
+}
+
+#primary h1 {
+    font-size: 48px;
+    padding-bottom:25px;
+#    text-transform: none !important;
+}
+
+.entry-content {
+    max-width: 100% !important;
+}
+
+.entry-content img {
+    margin-left: 0px !important;
+}
+
+.site-content {
+    margin-left: 0 !important;
+}
+
+#secondary .site-navigation {
+    border: 1px solid black;
+}
+
+#secondary .site-navigation li a {
+    line-height: 24px !important;
+    font-size: 16px !important;
+    background: rgb(43,93,99) !important;    
+}
+
+#li a:hover,
+#secondary .secondary-navigation li:hover > a,
+#secondary .secondary-navigation li.focus > a
+#{
+#     background: rgb(33,73,79) !important;
+#}
+
+.secondary-navigation .menu-item-has-children > a::after {
+    top: 7px !important;
+}
+
+#secondary .sub-menu {
+    background: rgb(43,93,99) !important; 
+    border: 1px solid black;
+}
+
+#secondary .sub-menu a {
+    border-top: 1px solid #333;
+}
+
+#secondary .menu-monoliths-menu-container > li:first-child a:hover,
+#secondary .menu-monoliths-menu-container #menu-monoliths-menu > li:first-child a {
+    text-align: center !important;
+    text-transform: none !important;
+    font-size: 24px !important;
+    background: rgb(205,165,105) !important;
+    display: block !important;
+    text-shadow: 0 0 5px #333 !important;
+    border: 1px solid #333 !important;
+    border-radius: 3px;
+    margin-bottom: 5px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+table tr td {
+    vertical-align: top;
+}
+
+.hide-show-soil-info {
+    display: none;
+    background: rgb(54,76,76);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 95%;
+    height: 400px;
+    overflow: auto;
+    margin-right: 50px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hide-show-soil-info h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.sidebar-pagebottom{
+    display:none;    
+}
+
+@media screen and (min-width: 1006px) {
+
+
+}
+
+@media screen and (max-width: 1007px) {
+    #primary {
+        margin-left: 0 !important;
+    }
+    #secondary {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    #secondary a {
+    padding-left: 30px!important;
+    }
+    
+    .menu-toggle {
+        position: relative !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* removed top  margin from footer of 2021 WP theme */
+.no-widgets .site-footer {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*
+#main:after {
+   content: 'This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License unless otherwise indicated.';
+   color: black;
+}
+*/
