@@ -6,10 +6,10 @@
   <Snippet></Snippet>
 
 <Folder id="FeatureLayer5">
-    <name>Alluvium</name>
+    <name>Delta-Tsawwassen</name>
     <Snippet></Snippet>
     <Placemark id="ID_50000">
-      <name>Alluvium</name>
+      <name>Delta-Tsawwassen</name>
       <Snippet></Snippet>
       <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 <head>
@@ -19,7 +19,7 @@
 <body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
 <table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
 <tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-<td>Alluvium</td>
+<td>Delta-Tsawwassen</td>
 </tr>
 <tr>
 <td>
@@ -30,7 +30,7 @@
 </tr>
 <tr bgcolor="#D4E4F3">
 <td>Catena</td>
-<td>Alluvium</td>
+<td>Delta-Tsawwassen</td>
 </tr>
 </table>
 </td>
