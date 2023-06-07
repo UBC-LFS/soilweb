@@ -5,7 +5,7 @@ The **Google map key** is required to enable the Google map.
 
 ### KML files
 
-There are 4 kml files to dislay 4 different colours on the Google map.
+There are 4 kml files to display 4 different colours on the Google map.
 
 - Bose-Heron.kml
 - Delta- Tsawwassen.kml
