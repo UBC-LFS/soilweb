@@ -1,0 +1,327 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400 !important;
+}
+
+.site-header {
+    background: linear-gradient(to bottom, #543301 0%,#423001 14%,#332200 100%) !important;
+    padding: 0 !important;
+}
+
+.site-branding .site-title {
+    margin-top: revert !important;
+    display: flex;
+    align-items: center;
+}
+
+.site-branding .site-title > div {
+    top: 0 !important;
+    left: auto !important;
+    position: initial !important;
+}
+
+.site-branding .site-title > a {
+    margin-left: 20px;
+    color: #fff !important;
+}
+
+.sidebar-pagebottom,
+.comments-area,
+.site-footer .after-footer .site-credits .credits-theme {
+    display: none;
+}
+
+.site-footer {
+    background: transparent !important;
+    color: black !important;
+    padding: 10px 20px 10px 20px !important;
+}
+
+#main {
+    border-top: 1px solid black !important;
+    background-color: #332200 !important;
+    padding: 20px !important;
+}
+
+.content-header {
+    background-color: transparent !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+
+.content-header h1 {
+    margin-top: 50px;
+    color: #34495e !important;
+    font-weight: 500;
+}
+
+.content-area,
+.widget-area {
+    padding-top: 10px !important;
+}
+
+.content-area.col-md-8 {
+    width: 75%;
+}
+
+.widget-area.col-md-4 {
+    width: 25%;
+}
+
+.content-area .site-main,
+.widget-area .widget {
+    border-radius: 4px !important;
+}
+
+.widget {
+    background: rgb(44,40,34) !important;
+    padding: 20px;
+    
+}
+
+.widget-title,
+.menu-side-menu-container li {
+    text-align: center;
+}
+
+.widget-title {
+    color: #fff;
+    margin: 0 !important;
+    font-size: 2.5rem;
+}
+
+.menu-side-menu-container a {
+    color: #fff !important;
+    font-size: 16px !important;
+}
+
+.menu-side-menu-container a:hover {
+    text-decoration: underline;
+}
+
+.widget .textwidget img {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry-content .soil-info {
+    margin-top: 20px;
+}
+
+.entry-content .soil-info img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+.entry-content .soil-info .font-sm {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7px;
+}
+
+.entry-content iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+@media (max-width: 575.98px) {
+    .site-branding .site-title > a {
+        font-size: 2.2rem !important;
+    }
+    .site-branding .site-title > div > a img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .site-content .container .row {
+        display: block !important;
+    }
+    .content-area.col-md-8 {
+        width: 100%;
+    }
+
+    .widget-area.col-md-4 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .site-content .container .row {
+        display: flex;
+    }
+}
+
+@media (max-width: 1199.98px) {  }
+@media (max-width: 1399.98px) {  }
+
+
+/*
+#page {
+    margin-top: 20px !important;
+    background: lightgrey !important;
+    position: relative;
+}
+
+body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background: lightgrey !important;
+        font: Ariel, Helvetica, sans-serif !important;
+        color: #DDD !important;
+}
+
+.site-header {
+    background: linear-gradient(to bottom, #543301 0%,#423001 14%,#332200 100%) !important;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 0 !important;
+}
+
+.site-title {
+    position: relative;
+}
+
+.main-navigation, .menu-top-menu-container, #menu-top-menu {
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.nav-menu {
+    text-align: center !important;
+}
+
+.nav-menu li {
+    border: 1px solid #000 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-right: 0px !important;
+    border-bottom: 0 !important;
+    border-radius: 5px 5px 0 0;
+    background: rgb(30, 15, 0) !important;
+}
+
+.nav-menu li a {
+    line-height: 40px !important;
+    font-size: 16px !important;
+    color: #FFF !important;
+}
+
+.nav-menu li a:hover {
+    color: #EEE !important;
+    font-weight: bold;
+}
+
+.site-title {
+    background-repeat: no-repeat !important;
+    background-position: 0 10px !important;
+    height: 100px !important;
+}
+
+.site-title {
+    font-size: 260% !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-right: 5px !important;
+}
+
+.site-title > a {
+    color: #FFF !important;
+    margin-top: 10px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+
+.site-footer {
+    background: transparent !important;
+    color: black !important;
+    padding: 10px 20px 10px 20px !important;
+}
+
+#main {
+    border-top: 1px solid black !important;
+    background: rgb(50, 34, 19) #332200 !important;
+    padding: 20px !important;
+}
+
+.entry-meta {
+}
+
+.comments-area {
+    display: none !important;
+}
+
+.page {
+    border: none !important;
+}
+
+.widget {
+    border: 1px solid #777;
+    background: rgb(44,40,34) !important;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.widget-title {
+    color: #DDD;
+    font-size: 24px;
+    margin: 0 !important;
+    text-align: right;
+}
+
+.menu-side-menu-container * {
+    color: #DDD !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    text-align: right;
+}
+
+.page-id-14 #page #main #primary {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+#primary {
+    width: 70%;
+}
+
+#secondary {
+    width: 25%;
+}
+}
+
+@media screen and (max-width: 599px) {
+    .nav-menu li {
+        border: 1px solid white !important;
+        border-radius: 5px !important;
+    }
+    
+    .main-navigation button {
+        padding: 10px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        font-size: 16px !important;
+        background: rgb(50, 34, 19) !important;
+        box-shadow: none !important;
+        border: 1px solid white !important;
+    }
+    
+    .widget-title, .menu-side-menu-container * {
+    text-align: center !important;
+    }
+}
+
+.sidebar-pagebottom{
+    display: none
+}
+*/

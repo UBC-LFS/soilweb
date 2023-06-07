@@ -4,16 +4,17 @@ This repository aims to store some Global CSS and Javascript code as well as scr
 
 ### Menu
 
-There are 9 websites in total.
+There are 10 websites in total.
 
 - [Main](Main) (https://www.soilweb.ca/)
 - [Forest Floors](Forest-Floors) (https://forestfloor.soilweb.ca/)
 - [Land Use Impacts on Soil Quality](Land-Use-Impacts-on-Soil-Quality) (https://luitool.soilweb.ca/)
-- [Monoliths](Monoliths) (https://monoliths.soilweb.ca/)
 - [Soil Biodiversity](Soil-Biodiversity) (https://biology.soilweb.ca/)
+- [Soil Classification](Soil-Classification) (https://classification.soilweb.ca/)
 - [Soil Formation and Parent Material](Soil-Formation-and-Parent-Material) (https://landscape.soilweb.ca/)
 - [Soil Formation and Soil Processes](Soil-Formation-and-Soil-Processes) (https://processes.soilweb.ca/)
 - [Soil Lab Modules](Soil-Lab-Modules) (https://labmodules.soilweb.ca/)
+- [Soil Monoliths](Soil-Monoliths) (https://monoliths.soilweb.ca/)
 - [Vancouver Soil Map](Vancouver-Soil-Map) (https://vancouversoils.ca/)
 
 
@@ -26,25 +27,18 @@ Before start working on it, please choose a theme under **Appearance** first.
 
 ### Selected Themes
 
-Website | Theme |
---- | --- |
-Main | Twenty Fourteen |
---- | --- |
-Forest Floors | Neve |
---- | --- |
-Land Use Impacts on Soil Quality | |
---- | --- |
-Monoliths | |
---- | --- |
-Soil Biodiversit | Flat Bootstrap
---- | --- |
-Soil Formation and Parent Material | Neve |
---- | --- |
-Soil Formation and Soil Processes | Flat Bootstrap
---- | --- |
-Soil Lab Modules | Twenty Fourteen |
---- | --- |
-Vancouver Soil Map | |
+| Website | Theme | Map on the page |
+| --- | --- |
+| Main | Twenty Fourteen | |
+| Forest Floors | Neve | |
+| Land Use Impacts on Soil Quality | |
+| Soil Biodiversity | Flat Bootstrap | Yes |
+| Soil Classification | Flat Bootstrap | |
+| Soil Formation and Parent Material | Neve | Yes |
+| Soil Formation and Soil Processes | Flat Bootstrap | |
+| Soil Lab Modules | Twenty Fourteen | |
+| Soil Monoliths | | |
+| Vancouver Soil Map | | |
 
 You might have some CSS and Javascript issues because of deactivated plugins
 
@@ -68,7 +62,7 @@ When a website is broken for some reason such as jQuery and PHP updates, please 
 If clicking events on the image is not working properly on the home page, it would be a Javascript issue.
 
 1. Activate a **Custom Javascripty Meta Box** plugin (Local Javascript) under **Plugins** first
-2. Check HTML code including **map** tags
+2. Check HTML code including **image-map** tags
 2. Copy and paste **custom.js** code into the Local Javascript editor on the page
 
 

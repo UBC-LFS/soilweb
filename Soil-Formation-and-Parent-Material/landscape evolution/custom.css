@@ -1,0 +1,9 @@
+.site-content {
+    width: 100% !important;
+    border-top-right-radius: 6px;
+}
+
+.widget-area {
+    width:  0% !important;
+    display: none !important;
+}
