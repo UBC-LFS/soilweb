@@ -28,16 +28,16 @@ Before start working on it, please choose a theme under **Appearance** first.
 ### Selected Themes
 
 | Website | Theme | Map on the page |
-| --- | --- |
+| ------- | ----- | --------------- |
 | Main | Twenty Fourteen | |
 | Forest Floors | Neve | |
-| Land Use Impacts on Soil Quality | Flat Bootstrap |
+| Land Use Impacts on Soil Quality | Flat Bootstrap | |
 | Soil Biodiversity | Flat Bootstrap | Yes |
 | Soil Classification | Flat Bootstrap | |
 | Soil Formation and Parent Material | Neve | Yes |
 | Soil Formation and Soil Processes | Flat Bootstrap | |
 | Soil Lab Modules | Twenty Fourteen | |
-| Soil Monoliths | | |
+| Soil Monoliths | Twenty Fourteen | |
 | Vancouver Soil Map | | Yes |
 
 You might have some CSS and Javascript issues because of deactivated plugins
