@@ -32,13 +32,13 @@ Before start working on it, please choose a theme under **Appearance** first.
 | Main | Twenty Fourteen | |
 | Forest Floors | Neve | |
 | Land Use Impacts on Soil Quality | Flat Bootstrap | |
-| Soil Biodiversity | Flat Bootstrap | Yes |
+| Soil Biodiversity | Flat Bootstrap | Image map |
 | Soil Classification | Flat Bootstrap | |
-| Soil Formation and Parent Material | Neve | Yes |
+| Soil Formation and Parent Material | Neve | Image map |
 | Soil Formation and Soil Processes | Flat Bootstrap | |
 | Soil Lab Modules | Twenty Fourteen | |
-| Soil Monoliths | Twenty Fourteen | |
-| Vancouver Soil Map | | Yes |
+| Soil Monoliths | Twenty Fourteen | Image map |
+| Vancouver Soil Map | | Google map |
 
 You might have some CSS and Javascript issues because of deactivated plugins
 
