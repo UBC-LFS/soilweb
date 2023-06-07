@@ -11,3 +11,5 @@ There are 4 kml files to display 4 different colours on the Google map.
 - Delta- Tsawwassen.kml
 - Langley-Cloverdale.kml
 - Whatcom-Scat.kml
+
+![home page](https://github.com/UBC-LFS/soilweb/blob/main/Vancouver-Soil-Map/screenshots/2023-06-07_15-14-04.png)
