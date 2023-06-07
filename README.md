@@ -15,6 +15,20 @@
 - [Vancouver Soil Map](Vancouver-Soil-Map) (https://vancouversoils.ca/)
 
 
+Before start working on it, please choose a theme under **Appearance** first.
+
+### Themes
+
+- Main:
+- Forest Floors:
+- Lab Modules:
+- Land Use Impacts on Soil Quality:
+- Landscape:
+- Monoliths:
+- Soil Biodiversit:
+- Soil Formation and Soil Processes:
+- Vancouver Soil Map:
+
 > You might have some CSS and Javascript issues because of deactivated plugins
 
 ## A. How to fix a website with CSS issues
@@ -23,12 +37,12 @@ When a website is broken for some reason such as jQuery and PHP updates, please 
 
 #### If a Custom CSS editor is activated
 
-1. Activate a **Custom CSS** (Global CSS) under **Plugins** first
+1. Activate a **Custom CSS** (Global CSS) plugin under **Plugins** first
 2. Copy and paste the CSS code into the global editor.
 
 #### If a Custom CSS editor it not activated for some reason
 
-1. Go to the **Customize** Under **Appearance** in the left navigation menu.
+1. Go to the **Customize** under **Appearance** in the left navigation menu.
 2. Copy and paste the CSS code into the **Additional CSS** editor.
 
 
@@ -36,7 +50,7 @@ When a website is broken for some reason such as jQuery and PHP updates, please 
 
 #### If a click event on the image is not working properly on the home page, it would be a Javascript issue
 
-1. Activate a **Custom Javascripty Meta Box** (Local Javascript) under **Plugins** first
+1. Activate a **Custom Javascripty Meta Box** plugin (Local Javascript) under **Plugins** first
 2. Check HTML code including **map** tags
 2. Copy and paste **custom.js** code into the Local Javascript editor on the page
 
