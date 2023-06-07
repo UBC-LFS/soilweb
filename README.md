@@ -20,8 +20,8 @@ There are 10 websites in total.
 
 ## May have technical issues
 
-A. CSS issues
-B. Javascript issues
+- A. CSS issues
+- B. Javascript issues
 
 Before start working on it, please choose a theme under **Appearance** first.
 

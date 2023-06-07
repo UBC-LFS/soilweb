@@ -1,0 +1,102 @@
+#label1, #label2, #label3, #label4, #label5, #label6 {
+  margin:0;
+  padding: 3px;
+  display:inline-block;
+  width: 60%;
+}
+#label1 {
+  background-color: #e4d8f4;
+}
+#label2 {
+  background-color: #cbdce8;
+}
+#label3 {
+  background-color: #f0d5d4;
+}
+#label4 {
+  background-color: #deeccf;
+}
+
+.table {
+  font-size: 13px !important;
+}
+@media screen and (max-width: 1000px) {
+  .col, .last {
+    float:left;
+    width:100%;
+    text-align: center;
+  }
+  .row img{
+    width:35%;
+    height: 35%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .col {
+  float: left;
+  width: 25%;
+  text-align: center;
+  }
+  .row img{
+  width:65%;
+  height: 65%;
+  margin-top: 10px;
+  }
+  .last{
+  float: right;
+  width: 25%;
+  text-align: center;
+  }
+
+}
+
+
+.row{
+  height: auto;
+  overflow: auto;
+  margin-top: 40px;
+}
+
+.col a:link, .last a:link {
+  text-decoration: none;
+  color: #5f80b8;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.col a:visited, .last a:visited {
+  color: #5f80b8;
+}
+.col a:hover, .last a:hover {
+  color: #7896c8;
+}
+.col a:active, .last a:active {
+  color: #7896c8;
+}
+
+.full-width-control {
+  margin-top: 2%;
+  display: none;
+}
+.hide {
+  display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+  .full-width-control {
+    margin-top: 4%;
+    display: inline;
+  }
+  .hide {
+    display: none;
+  }
+  .table td{
+    width: none;
+  }
+  .map-control h4 {
+    top-margin: 0;
+    line-height: 1em;
+  }
+ 
+}
+
