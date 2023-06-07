@@ -1,0 +1,18 @@
+.neve-main .nv-big-title { display: none; }
+.entry-content { margin-top: 50px; }
+.entry-content .sidebar-left {
+	background-color: #ddd;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	padding: 30px;
+}
+
+.entry-content .sidebar-right { text-align: center; }
+.entry-content .d-inline-block { display: inline-block }
+
+.entry-content .sidebar-right .img-moder {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.entry-content figure a:hover { opacity: 1; }

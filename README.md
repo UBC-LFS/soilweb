@@ -1,37 +1,54 @@
 # Repository for Soil websites
 
-> This repository aims to store some Global CSS and Javascript code as well as screenshot images.
+This repository aims to store some Global CSS and Javascript code as well as screenshot images, and will help you figure out how to restore websites.
 
 ### Menu
 
+There are 9 websites in total.
+
 - [Main](Main) (https://www.soilweb.ca/)
 - [Forest Floors](Forest-Floors) (https://forestfloor.soilweb.ca/)
-- [Lab Modules](Lab-Modules) (https://labmodules.soilweb.ca/)
 - [Land Use Impacts on Soil Quality](Land-Use-Impacts-on-Soil-Quality) (https://luitool.soilweb.ca/)
-- [Landscape](Landscape) (https://landscape.soilweb.ca/)
 - [Monoliths](Monoliths) (https://monoliths.soilweb.ca/)
 - [Soil Biodiversity](Soil-Biodiversity) (https://biology.soilweb.ca/)
+- [Soil Formation and Parent Material](Soil-Formation-and-Parent-Material) (https://landscape.soilweb.ca/)
 - [Soil Formation and Soil Processes](Soil-Formation-and-Soil-Processes) (https://processes.soilweb.ca/)
+- [Soil Lab Modules](Soil-Lab-Modules) (https://labmodules.soilweb.ca/)
 - [Vancouver Soil Map](Vancouver-Soil-Map) (https://vancouversoils.ca/)
 
 
+## May have technical issues
+
+A. CSS issues
+B. Javascript issues
+
 Before start working on it, please choose a theme under **Appearance** first.
 
-### Themes
+### Selected Themes
 
-- Main:
-- Forest Floors:
-- Lab Modules:
-- Land Use Impacts on Soil Quality:
-- Landscape:
-- Monoliths:
-- Soil Biodiversit:
-- Soil Formation and Soil Processes:
-- Vancouver Soil Map:
+Website | Theme |
+--- | --- |
+Main | Twenty Fourteen |
+--- | --- |
+Forest Floors | Neve |
+--- | --- |
+Land Use Impacts on Soil Quality | |
+--- | --- |
+Monoliths | |
+--- | --- |
+Soil Biodiversit | Flat Bootstrap
+--- | --- |
+Soil Formation and Parent Material | Neve |
+--- | --- |
+Soil Formation and Soil Processes | Flat Bootstrap
+--- | --- |
+Soil Lab Modules | Twenty Fourteen |
+--- | --- |
+Vancouver Soil Map | |
 
-> You might have some CSS and Javascript issues because of deactivated plugins
+You might have some CSS and Javascript issues because of deactivated plugins
 
-## A. How to fix a website with CSS issues
+## A. CSS issues
 
 When a website is broken for some reason such as jQuery and PHP updates, please use Global CSS code.
 
@@ -46,9 +63,9 @@ When a website is broken for some reason such as jQuery and PHP updates, please 
 2. Copy and paste the CSS code into the **Additional CSS** editor.
 
 
-## B. How to fix clicking events on the image with Javsacript issues
+## B. Javsacript issues
 
-#### If a click event on the image is not working properly on the home page, it would be a Javascript issue
+If clicking events on the image is not working properly on the home page, it would be a Javascript issue.
 
 1. Activate a **Custom Javascripty Meta Box** plugin (Local Javascript) under **Plugins** first
 2. Check HTML code including **map** tags
