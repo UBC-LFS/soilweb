@@ -1,1 +1,1 @@
-### Theme: Twenty Fourteen
+### Current Theme: Twenty Fourteen

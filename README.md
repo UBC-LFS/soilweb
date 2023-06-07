@@ -31,14 +31,14 @@ Before start working on it, please choose a theme under **Appearance** first.
 | --- | --- |
 | Main | Twenty Fourteen | |
 | Forest Floors | Neve | |
-| Land Use Impacts on Soil Quality | |
+| Land Use Impacts on Soil Quality | Flat Bootstrap |
 | Soil Biodiversity | Flat Bootstrap | Yes |
 | Soil Classification | Flat Bootstrap | |
 | Soil Formation and Parent Material | Neve | Yes |
 | Soil Formation and Soil Processes | Flat Bootstrap | |
 | Soil Lab Modules | Twenty Fourteen | |
 | Soil Monoliths | | |
-| Vancouver Soil Map | | |
+| Vancouver Soil Map | | Yes |
 
 You might have some CSS and Javascript issues because of deactivated plugins
 
@@ -62,7 +62,7 @@ When a website is broken for some reason such as jQuery and PHP updates, please 
 If clicking events on the image is not working properly on the home page, it would be a Javascript issue.
 
 1. Activate a **Custom Javascripty Meta Box** plugin (Local Javascript) under **Plugins** first
-2. Check HTML code including **image-map** tags
+2. Check HTML code including a **image-map** name in tags
 2. Copy and paste **custom.js** code into the Local Javascript editor on the page
 
 
