@@ -1,0 +1,24 @@
+/* Title VSSLR logo */
+#ubc7-unit-name {
+    display: table;
+}
+
+#ubc7-unit-name > a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#ubc7-unit-name > a:nth-child(1) {
+    float: left;
+    margin-top: 0 !important;
+    margin-right: 20px;
+}
+
+#ubc7-unit-name > a > img {
+    width: auto;
+    height: 50px;
+}
+
+#ubc7-unit-name > a > img:hover {
+    opacity: 0.8;
+}

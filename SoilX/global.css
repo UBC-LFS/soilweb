@@ -1,0 +1,366 @@
+html {
+    background-image: url('https://ar-soilweb.sites.olt.ubc.ca/files/2013/11/soilx_bg.png');
+    background-repeat:repeat-x;
+    background-color: #4d3a28;
+}
+body {
+    background-color: transparent !important;
+}
+body .site {
+    margin: 1.5rem auto;
+}
+/* remove dotted line when clicking on a link */
+a {
+   outline: 0 !important;
+}
+
+.site {
+    padding: 0 24px;
+    padding: 0 1.714285714rem;
+    background: #fff url('https://ar-soilweb.sites.olt.ubc.ca/files/2013/11/soilx_map_header_bg.png') top left no-repeat;
+}
+.site-header {
+    background-image: url('https://ar-soilweb.sites.olt.ubc.ca/files/2013/11/soilx_logo.png');   
+    background-size:434px 81px;
+    background-position:left top;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+/* Title VSSLR logo */
+.site-header .main-navigation .logo-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.site-header .main-navigation .logo-link > img {
+    width: auto;
+    height: 100px;
+}
+
+.site-header .main-navigation .logo-link > img:hover { opacity: 0.8; }
+
+.menu-toggle {
+    margin-top: 60px;
+}
+
+.main-navigation {
+    margin-top: 5px;
+    text-align: center;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+    border-top: none;
+    border-bottom: none;
+    text-align: right;
+    margin-top: 60px;
+    width: 100%;
+}
+.main-navigation li a,
+.main-navigation li {
+    color: #363636;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin-left: 2px;
+    margin-right: 0;
+    background-color: #fff;
+    font-weight: bold;
+}
+.main-navigation li a {
+	line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.main-navigation li a:hover {
+    color: #38a941;
+}
+.main-navigation li {
+    margin-top: 2px;
+    font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.42857143;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+    color: #38a941;
+}
+
+.slideshow-wrapper {
+    margin: 0 0 20px;
+}
+
+/* homepage list style */
+.entry-content ul, .comment-content ul, .mu_register ul {
+    list-style: none outside none;
+}
+.list-icon {
+    margin:0 7px 0 -27px;
+    vertical-align: middle;
+}
+
+.gm-style-iw {
+    overflow: scroll;
+}
+
+/* help page style */
+.help-section {
+    background-color: #DADADA;
+    margin: 0 -25px;
+    padding: 5px 25px;
+}
+.entry-content a:link, .entry-content a:visited, .entry-content a:hover, .entry-content a:active  {
+    color: #38A941;
+}
+
+.help-header {
+    width: 100%;
+    border-bottom: 1px solid #9d9d9d;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+/* download app button */
+.download-app-table {
+    width: 100%;
+    height: 50px;
+    display: none;
+}
+.download-app-table img {
+    margin-right: 10px;
+    vertical-align:middle;
+    width: 50px;
+    height: 43px;
+}
+.download-app-table a:link, .download-app-table a:visited, .download-app-table a:hover, .download-app-table a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.download-app-cell
+{
+    background-color: #767676;
+    border-radius: 5px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* augmented reality page*/
+.app-store-icons {
+    text-align: center;
+}
+.app-store-icons img {
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+/* team page */
+.team {
+    min-height: 760px;
+    background-color: #EDEDED;
+    float:left;
+}
+.team-indiv-profile {
+    width:100%;
+    float:left;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    float:left;
+    width: 125px;
+}
+.profile-blurb {
+    float:right;
+    width: 65%;
+}
+
+table {
+    border: 0;
+}
+.soilweb-search-box {
+    background: none repeat scroll 0 0 #ededed;
+    border: 0;
+    border-radius: 0;
+}
+
+.soilweb-search-box table {
+    border: 0;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+
+.soilweb-search-box table tr td {
+    border-top: 0;
+    border-bottom: 0;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.soilweb-tabs-pane table {
+        border: 0;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+
+.soilweb-tabs-pane table tr td {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.soilweb-accordion-pane-1, soilweb-accordion-pane-2 table tr {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.soilweb-content-top, .soilweb-content-media, .soilweb-content-box, .soilweb-content-links {
+    background-color: #ededed;
+    color: #2b2b2b;
+    border: 0;
+    border-radius: 0;
+}
+
+.soilweb-content-top p, .soilweb-content-media p, .soilweb-content-box p, .soilweb-content-links p {
+    color:#2b2b2b;
+}
+
+#soilweb-accordion-1 .soilweb-accordion-pane-1 table, #soilweb-accordion-4 .soilweb-accordion-pane-1 table, #soilweb-accordion-7 .soilweb-accordion-pane-2 table {
+    border: 0;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+
+.soilweb-accordion-pane-1, .soilweb-accordion-pane-2 {
+    background-color: #EDEDED;
+    border: 0 none !important;
+    border-radius: 0;
+}
+
+#soilweb-accordion-1 .soilweb-accordion-pane-1 table tr td, #soilweb-accordion-4 .soilweb-accordion-pane-1 table tr td, #soilweb-accordion-7 .soilweb-accordion-pane-2 table tr td {
+    border-top: 0;
+    border-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.entry-header .entry-title {
+    font-size: 0;
+    line-height: 0;
+}
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+    border-radius: 0px !important;
+    box-shadow: none  !important;
+}
+
+.soilweb-content-top, .soilweb-content-media, .soilweb-content-box, .soilweb-content-lin {
+    border: 0;
+    border-radius: 0;
+}
+
+.site-content {
+    margin: 10px 0 0 0;
+}
+
+.site-content article {
+    margin-bottom: 0;
+}
+
+.soilweb-filter {
+    background: none repeat scroll 0 0 #EDEDED;
+    border: 0 none;
+    border-radius: 0;
+}
+
+#soilweb-tabs .soilweb-tabs-pane {
+    background-color: #EDEDED;
+    border: 0 none;
+    border-radius: 0;
+    display: block;
+    padding: 25px;
+}
+
+
+.footer {
+    padding: 20px 0 0 0;
+    min-height: 92px;
+    /* background: url('https://ar-soilweb.sites.olt.ubc.ca/files/2013/11/virtual_soil_science_logo.png') left no-repeat; */
+    text-align: right;
+}
+
+
+.footer span { display:inline-block; vertical-align:middle }
+
+#colophon {
+    display: none;
+}
+
+/* tabs on help page */
+#soilweb-tabs #menu-wrap .ui-state-active {
+    background-color: #EDEDED;
+}
+#soilweb-tabs #menu-wrap li {
+    background-color: #393A3A;
+    border-width: 0;
+}
+#soilweb-tabs #menu-wrap {
+    padding-right: 5%;
+    text-align: right;
+}
+
+/* responsiveness */
+@media screen and (max-width: 1024px) {
+.download-app-table {
+    display: table;
+}
+}
+
+@media screen and (max-width: 600px) {
+body .site {
+    margin: 0 auto;
+}
+.main-navigation {
+    margin-top: 0;
+}
+.menu-toggle {
+    display: inline-block;
+    margin-top: 90px;
+}
+.main-navigation ul.nav-menu.toggled-on {
+    display: inline-block;
+    margin-top: 15px;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.main-navigation div.nav-menu.toggled-on > ul {
+    text-align: center;
+}
+
+.team {
+    min-height: 0;
+    text-align: center;
+}
+.profile-pic {
+    float: none;
+    margin: 0 auto !important;
+}
+.profile-blurb {
+    float: left;
+    width: 100%;
+}
+.footer p {
+    height: 0;
+    visibility: hidden;
+}
+}

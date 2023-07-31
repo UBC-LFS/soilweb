@@ -51,8 +51,25 @@ footer > .site-footer {
     }
 }
 
+/* Title VSSLR logo */
+.site-header .site-branding-text .logo-link {
+    margin-right: 20px;
+}
 
+.site-header .site-branding-text .logo-link > img {
+    width: auto;
+    height: 80px;
+    display: inline-block;
+}
 
+.site-header .site-branding-text .logo-link > img:hover {
+    opacity: 0.8;
+}
+
+.site-header .site-branding-text .site-title {
+    display: inline-block;
+    vertical-align: sub;
+}
 
 
 

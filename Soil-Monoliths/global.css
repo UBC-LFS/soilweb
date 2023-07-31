@@ -5,6 +5,33 @@ body, #page, header {
     background-color: rgb(87,72,55) !important;
 }
 
+/* Title VSSLR logo */
+
+.site-header .logo-link,
+.site-header .site-title{
+    display: inline-block;
+}
+
+.site-header .logo-link {
+    margin-right: 20px;
+}
+
+.site-header .logo-link > img {
+    width: auto;
+    height: 50px;
+}
+
+.site-header .logo-link > img:hover {
+    opacity: 0.8;
+}
+
+.site-header .site-title {
+    width: auto !important;
+    float: none;
+    vertical-align: middle;
+}
+
+
 #page {
     max-width: 1000px !important;
     margin-left: auto;

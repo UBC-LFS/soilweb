@@ -9,12 +9,16 @@ There are 10 websites in total.
 - [Main](Main) (https://www.soilweb.ca/)
 - [Forest Floors](Forest-Floors) (https://forestfloor.soilweb.ca/)
 - [Land Use Impacts on Soil Quality](Land-Use-Impacts-on-Soil-Quality) (https://luitool.soilweb.ca/)
+- [Pinusradiata](Pinusradiata) (https://pinusradiata.soilweb.ca/) 
 - [Soil Biodiversity](Soil-Biodiversity) (https://biology.soilweb.ca/)
 - [Soil Classification](Soil-Classification) (https://classification.soilweb.ca/)
 - [Soil Formation and Parent Material](Soil-Formation-and-Parent-Material) (https://landscape.soilweb.ca/)
 - [Soil Formation and Soil Processes](Soil-Formation-and-Soil-Processes) (https://processes.soilweb.ca/)
+- [Soil for Youth](Soil-for-Youth) (https://soil4youth.soilweb.ca/)
 - [Soil Lab Modules](Soil-Lab-Modules) (https://labmodules.soilweb.ca/)
 - [Soil Monoliths](Soil-Monoliths) (https://monoliths.soilweb.ca/)
+- [SoilWeb200](SoilWeb200) (https://soilweb200.landfood.ubc.ca/)
+- [SoilX](SoilX) (https://www.soilx.ca/)
 - [Vancouver Soil Map](Vancouver-Soil-Map) (https://vancouversoils.ca/)
 
 

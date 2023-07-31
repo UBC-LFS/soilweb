@@ -1,3 +1,14 @@
 .header-main-inner { background-color: #d1e7dd; }
 
 .hfg_footer { display: none; }
+
+
+/* Title VSSLR logo */
+.header .site-logo .logo-link {
+	margin-right: 20px;
+}
+
+.header .site-logo .logo-link > img {
+	width: auto;
+	height: 60px;
+}

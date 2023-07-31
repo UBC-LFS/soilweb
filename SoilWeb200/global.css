@@ -1,0 +1,178 @@
+/* Global styles
+-------------------------------------------*/
+h1.page-title.entry-title {
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 32px;
+    background: #0B4C5F;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.breadcrumb.expand { 
+    margin-top: -10px; 
+    font-size: 13px;
+    opacity: 0.70;
+}
+
+/* Customized Wiki-Embed Formatting
+-------------------------------------------*/
+
+#toc, .toc {
+    margin-bottom: 10px;
+}
+
+.toclevel-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.accordion-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #086A87;
+}
+
+.subpages-navi-node {
+    background: white;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+
+/* Place to change accordion header text for subpages
+------------------------------------------*/
+
+.accordion-heading a {
+    color:white;
+}
+
+table.wikitable tr td {
+    padding: 10px;
+}
+
+table.wikitable tr ul {
+    margin-top: 10px;
+}
+
+table.wikitable tr td ul li {
+    line-height: 16px;
+}
+
+table.wikitable tr td dl {
+    line-height: 16px;
+}
+
+table.wikitable tr td dd {
+    line-height: 16px;
+}
+
+.wiki-embed-source {
+    display: none;
+}
+
+/* Explore Soil page
+-------------------------------------------*/
+.main_option h3 { 
+    margin-top: 15px; 
+    font-size:16px; 
+    font-weight:600;
+    line-height: 20px;
+}
+
+.main_option a { 
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.main_option:hover { opacity: 1.0; }
+
+.main_option {
+    padding: 0px 20px 5px 20px;
+    opacity: 0.75;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    min-height: 170px !important;
+    background-color: #D7E2EA;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px 1px #000000;
+    /*box-shadow: h-shadow v-shadow blur spread color inset;*/
+}
+
+.main_option { position: relative; }
+.learn_more { position: absolute; right: 15px; bottom: 10px; }
+
+.page-400 .entry-content { 
+    margin: 50px 50px 50px 50px;
+}
+
+.page-400 .breadcrumb.expand { display: none; }
+.page-400 .page-title.entry-title { display: none; }
+
+#soil-1 { background: #C56D83; }
+#soil-2 { background: #7B7EB7; }
+#soil-3 { background: #82B1B1; }
+#soil-4 { background: #8DA857; }
+#soil-5 { background: #DD9056; }
+#soil-6 { background: #DEB754; }
+
+
+/* News Page
+-------------------------------*/
+.news-page p {
+  overflow: auto;
+}
+
+.news-page p img {
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.news-page p a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.news-page p .title {
+    font-size:20px;
+    display:block;
+    margin-bottom: 10px;
+}
+
+.news-page p .date {
+    font-weight: bold;
+    display:block;
+}
+.news-page p a:hover {
+  text-decoration: underline;
+}
+
+/* Widgets */
+#section-5 h4 {
+    margin-top: 0;
+    line-height: 12pt;
+}
+
+/* Custom SoilWeb200 */
+.wiki-embed-shell h2, .wiki-embed-shell ul  {
+    display: none;
+}
+
+
+
+/* Title VSSLR logo */
+#ubc7-unit-name .logo-link {
+    float: left;
+    margin-right: 20px;
+}
+
+#ubc7-unit-name .logo-link > img {
+    width: auto;
+    height: 50px;
+}
+
+#ubc7-unit-name .logo-link > img:hover {
+    opacity: 0.8;
+}
